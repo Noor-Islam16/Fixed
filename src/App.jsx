@@ -18,7 +18,7 @@ import Step9 from "./Pages/Step9";
 import Step10 from "./Pages/Step10";
 import Step11 from "./Pages/Step11";
 import Step12 from "./Pages/Step12";
-import AddExperience from "./Pages/AddExperience";
+import AddExperience from "./Pages/Addexperience";
 import Step13 from "./Pages/Step13";
 
 function App() {
