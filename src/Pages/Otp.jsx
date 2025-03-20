@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
-import img from "../assets/images/frame 6.jpg"; // ✅ Ensure correct path
+import img from "../assets/images/frame.jpg";
 import "@fontsource/poppins";
 import "@fontsource/inter";
 
@@ -77,7 +77,10 @@ const Otp = () => {
         <p className="text-sm text-[#7E8B9E]">Login and verify your OTP</p>
 
         {/* OTP Boxes */}
-        <form onSubmit={handleSubmit} className="flex flex-col items-center w-full max-w-xs">
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col items-center w-full max-w-xs"
+        >
           <div className="flex justify-center space-x-2 mt-4">
             {otp.map((digit, index) => (
               <input
@@ -127,7 +130,10 @@ const Otp = () => {
         {/* Sign Up Text Link */}
         <p className="mt-4 text-sm">
           Don't have an account?{" "}
-          <a href="/signup" className="text-[#00A7AC] font-semibold hover:underline">
+          <a
+            href="/signup"
+            className="text-[#00A7AC] font-semibold hover:underline"
+          >
             Sign up here
           </a>
         </p>
